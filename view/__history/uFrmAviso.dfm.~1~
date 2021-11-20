@@ -1,0 +1,37 @@
+object FrmAviso: TFrmAviso
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'Email'
+  ClientHeight = 124
+  ClientWidth = 400
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 84
+    Top = 49
+    Width = 209
+    Height = 23
+    Caption = 'Enviando email, aguarde'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Timer1: TTimer
+    Interval = 500
+    OnTimer = Timer1Timer
+    Left = 328
+    Top = 8
+  end
+end

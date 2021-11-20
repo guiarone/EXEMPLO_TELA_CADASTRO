@@ -1,0 +1,462 @@
+object FrmCadastro: TFrmCadastro
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro'
+  ClientHeight = 561
+  ClientWidth = 784
+  Color = clBtnFace
+  Constraints.MaxHeight = 600
+  Constraints.MaxWidth = 800
+  Constraints.MinHeight = 600
+  Constraints.MinWidth = 800
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = False
+  Position = poScreenCenter
+  Scaled = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnKeyPress = FormKeyPress
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 66
+    Width = 11
+    Height = 13
+    Caption = 'ID'
+  end
+  object Label2: TLabel
+    Left = 96
+    Top = 66
+    Width = 27
+    Height = 13
+    Caption = 'Nome'
+  end
+  object Label3: TLabel
+    Left = 408
+    Top = 66
+    Width = 52
+    Height = 13
+    Caption = 'Identidade'
+  end
+  object Label4: TLabel
+    Left = 539
+    Top = 66
+    Width = 19
+    Height = 13
+    Caption = 'CPF'
+  end
+  object Label5: TLabel
+    Left = 650
+    Top = 66
+    Width = 42
+    Height = 13
+    Caption = 'Telefone'
+  end
+  object Label6: TLabel
+    Left = 8
+    Top = 122
+    Width = 24
+    Height = 13
+    Caption = 'Email'
+  end
+  object Label7: TLabel
+    Left = 220
+    Top = 122
+    Width = 19
+    Height = 13
+    Caption = 'CEP'
+  end
+  object Label8: TLabel
+    Left = 308
+    Top = 122
+    Width = 55
+    Height = 13
+    Caption = 'Logradouro'
+  end
+  object Label9: TLabel
+    Left = 650
+    Top = 122
+    Width = 37
+    Height = 13
+    Caption = 'N'#250'mero'
+  end
+  object Label10: TLabel
+    Left = 8
+    Top = 178
+    Width = 65
+    Height = 13
+    Caption = 'Complemento'
+  end
+  object Label11: TLabel
+    Left = 199
+    Top = 178
+    Width = 28
+    Height = 13
+    Caption = 'Bairro'
+  end
+  object Label12: TLabel
+    Left = 391
+    Top = 178
+    Width = 33
+    Height = 13
+    Caption = 'Cidade'
+  end
+  object Label13: TLabel
+    Left = 581
+    Top = 178
+    Width = 33
+    Height = 13
+    Caption = 'Estado'
+  end
+  object Label14: TLabel
+    Left = 641
+    Top = 178
+    Width = 19
+    Height = 13
+    Caption = 'Pa'#237's'
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 784
+    Height = 60
+    Align = alTop
+    ParentBackground = False
+    TabOrder = 13
+    object btSalvar: TBitBtn
+      Left = 104
+      Top = 8
+      Width = 90
+      Height = 45
+      Caption = 'Salvar'
+      TabOrder = 0
+      OnClick = btSalvarClick
+    end
+    object btExcluir: TBitBtn
+      Left = 200
+      Top = 8
+      Width = 90
+      Height = 45
+      Caption = 'Excluir'
+      TabOrder = 2
+      OnClick = btExcluirClick
+    end
+    object btNovo: TBitBtn
+      Left = 8
+      Top = 8
+      Width = 90
+      Height = 45
+      Caption = 'Novo'
+      TabOrder = 1
+      OnClick = btNovoClick
+    end
+    object btListar: TBitBtn
+      Left = 296
+      Top = 8
+      Width = 90
+      Height = 45
+      Caption = 'Listar'
+      TabOrder = 3
+      OnClick = btListarClick
+    end
+    object btEnviar: TBitBtn
+      Left = 392
+      Top = 8
+      Width = 90
+      Height = 45
+      Caption = 'Enviar'
+      TabOrder = 4
+      OnClick = btEnviarClick
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 501
+    Width = 784
+    Height = 60
+    Align = alBottom
+    ParentBackground = False
+    TabOrder = 14
+    object brFechar: TBitBtn
+      Left = 347
+      Top = 6
+      Width = 90
+      Height = 45
+      Caption = 'Fechar'
+      ModalResult = 8
+      TabOrder = 0
+      OnClick = brFecharClick
+    end
+  end
+  object btConfig: TBitBtn
+    Left = 680
+    Top = 8
+    Width = 90
+    Height = 45
+    Caption = 'Config'
+    TabOrder = 15
+    OnClick = btConfigClick
+  end
+  object edID: TEdit
+    Left = 8
+    Top = 85
+    Width = 80
+    Height = 21
+    TabStop = False
+    ReadOnly = True
+    TabOrder = 0
+    Text = 'lixo'
+  end
+  object lvCadastro: TListView
+    Left = 0
+    Top = 240
+    Width = 784
+    Height = 261
+    Align = alBottom
+    Columns = <
+      item
+        Caption = 'Id'
+      end
+      item
+        Caption = 'Nome'
+        Width = 200
+      end
+      item
+        Caption = 'Identidade'
+        Width = 100
+      end
+      item
+        Caption = 'CPF'
+        Width = 100
+      end
+      item
+        Caption = 'Telefone'
+        Width = 100
+      end
+      item
+        Caption = 'Email'
+        Width = 120
+      end
+      item
+        Caption = 'CEP'
+        Width = 100
+      end
+      item
+        Caption = 'Logradouro'
+        Width = 300
+      end
+      item
+        Caption = 'N'#250'mero'
+        Width = 100
+      end
+      item
+        Caption = 'Complemento'
+        Width = 150
+      end
+      item
+        Caption = 'Bairro'
+        Width = 200
+      end
+      item
+        Caption = 'Cidade'
+        Width = 200
+      end
+      item
+        Caption = 'Estado'
+        Width = 200
+      end
+      item
+        Caption = 'Pa'#237's'
+      end>
+    GridLines = True
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 16
+    ViewStyle = vsReport
+    OnClick = lvCadastroClick
+  end
+  object edNome: TEdit
+    Left = 102
+    Top = 85
+    Width = 300
+    Height = 21
+    MaxLength = 50
+    TabOrder = 1
+    Text = 'lixo'
+  end
+  object edIdentidade: TEdit
+    Left = 408
+    Top = 85
+    Width = 120
+    Height = 21
+    MaxLength = 20
+    TabOrder = 2
+    Text = 'lixo'
+  end
+  object edCPF: TMaskEdit
+    Left = 539
+    Top = 85
+    Width = 94
+    Height = 21
+    EditMask = '999\.999\.999\-99;0;_'
+    MaxLength = 14
+    TabOrder = 3
+    Text = ''
+  end
+  object edTelefone: TEdit
+    Left = 650
+    Top = 85
+    Width = 120
+    Height = 21
+    MaxLength = 20
+    TabOrder = 4
+    Text = 'lixo'
+  end
+  object edEmail: TEdit
+    Left = 8
+    Top = 141
+    Width = 200
+    Height = 21
+    MaxLength = 50
+    TabOrder = 5
+    Text = 'lixo'
+  end
+  object edCep: TMaskEdit
+    Left = 214
+    Top = 141
+    Width = 70
+    Height = 21
+    EditMask = '99999\-999;0;_'
+    MaxLength = 9
+    TabOrder = 6
+    Text = ''
+    OnExit = edCepExit
+  end
+  object edLogradouro: TEdit
+    Left = 308
+    Top = 141
+    Width = 331
+    Height = 21
+    MaxLength = 50
+    TabOrder = 7
+    Text = 'lixo'
+  end
+  object edNumero: TEdit
+    Left = 650
+    Top = 141
+    Width = 120
+    Height = 21
+    MaxLength = 20
+    TabOrder = 8
+    Text = 'lixo'
+  end
+  object edComplemento: TEdit
+    Left = 8
+    Top = 197
+    Width = 180
+    Height = 21
+    MaxLength = 30
+    TabOrder = 9
+    Text = 'lixo'
+  end
+  object edBairro: TEdit
+    Left = 199
+    Top = 197
+    Width = 180
+    Height = 21
+    MaxLength = 30
+    TabOrder = 10
+    Text = 'lixo'
+  end
+  object edCidade: TEdit
+    Left = 391
+    Top = 197
+    Width = 180
+    Height = 21
+    MaxLength = 30
+    TabOrder = 11
+    Text = 'lixo'
+  end
+  object edPais: TEdit
+    Left = 641
+    Top = 197
+    Width = 129
+    Height = 21
+    MaxLength = 30
+    TabOrder = 12
+    Text = 'lixo'
+  end
+  object cboxEstado: TComboBox
+    Left = 581
+    Top = 197
+    Width = 49
+    Height = 21
+    Style = csDropDownList
+    ItemIndex = 0
+    Sorted = True
+    TabOrder = 17
+    Text = 'AC'
+    Items.Strings = (
+      'AC'
+      'AL'
+      'AM'
+      'AP'
+      'BA'
+      'CE'
+      'DF'
+      'ES'
+      'GO'
+      'MA'
+      'MG'
+      'MS'
+      'MT'
+      'PA'
+      'PB'
+      'PE'
+      'PI'
+      'PR'
+      'RJ'
+      'RN'
+      'RO'
+      'RR'
+      'RS'
+      'SC'
+      'SE'
+      'SP'
+      'TO')
+  end
+  object RESTRequest1: TRESTRequest
+    Client = RESTClient1
+    Params = <>
+    Resource = '20541135/json'
+    Response = RESTResponse1
+    SynchronizedEvents = False
+    Left = 736
+    Top = 288
+  end
+  object RESTResponse1: TRESTResponse
+    ContentType = 'application/json'
+    Left = 736
+    Top = 352
+  end
+  object RESTClient1: TRESTClient
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'UTF-8, *;q=0.8'
+    BaseURL = 'https://viacep.com.br/ws'
+    Params = <>
+    HandleRedirects = True
+    Left = 736
+    Top = 424
+  end
+  object XMLDocument1: TXMLDocument
+    Left = 648
+    Top = 424
+  end
+end

@@ -1,0 +1,44 @@
+unit uFrmAviso;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TFrmAviso = class(TForm)
+    Label1: TLabel;
+    Timer1: TTimer;
+    procedure Timer1Timer(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmAviso: TFrmAviso;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmAviso.Timer1Timer(Sender: TObject);
+begin
+  if Label1.Caption = 'Enviando email, aguarde' then
+    Label1.Caption:= 'Enviando email, aguarde.'
+  else
+    if Label1.Caption = 'Enviando email, aguarde.' then
+      Label1.Caption:= 'Enviando email, aguarde..'
+    else
+      if Label1.Caption = 'Enviando email, aguarde.' then
+        Label1.Caption:= 'Enviando email, aguarde...'
+      else
+        if Label1.Caption = 'Enviando email, aguarde.' then
+          Label1.Caption:= 'Enviando email, aguarde....'
+        else
+          Label1.Caption:= 'Enviando email, aguarde'
+end;
+
+end.

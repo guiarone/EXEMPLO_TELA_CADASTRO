@@ -1,0 +1,14 @@
+program ExemploCadastro;
+
+uses
+  Vcl.Forms,
+  uExemplo_Cadastro in 'uExemplo_Cadastro.pas' {FrmCadastro};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmCadastro, FrmCadastro);
+  Application.Run;
+end.

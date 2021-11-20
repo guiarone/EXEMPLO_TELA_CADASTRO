@@ -1,0 +1,8 @@
+- Exemplo simples de um cadastro com arquitetura MVC sem DAO;
+	-controller -> classes de controle e operacional
+	-model -> Classes de dados
+	-view -> formulários
+	-EXE -> executavel e arquivos
+- Sem Banco de Dados, registros somente na memória;
+- Consulta a VIACEP com Json;
+- Envio de email com Indy;

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/11/18 14:56:05.000.940,=D:\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2021/11/18 14:57:43.000.141,D:\Documents\Embarcadero\Studio\Projects\Unit4.pas=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\uExemplo_Cadastro.pas</Transaction>
+    <Transaction>2021/11/18 14:57:43.000.141,D:\Documents\Embarcadero\Studio\Projects\Unit4.dfm=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\uExemplo_Cadastro.dfm</Transaction>
+    <Transaction>2021/11/18 14:57:54.000.838,D:\Documents\Embarcadero\Studio\Projects\Project4.dproj=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\ExemploCadastro.dproj</Transaction>
+    <Transaction>2021/11/18 15:02:23.000.647,=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\Unit1.pas</Transaction>
+    <Transaction>2021/11/18 15:02:40.000.648,D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\Unit1.pas=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\model\uCadastro.pas</Transaction>
+    <Transaction>2021/11/18 15:02:55.000.086,D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\model\uCadastro.pas=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\model\uCadastro_model.pas</Transaction>
+    <Transaction>2021/11/18 15:03:22.000.296,=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\Unit1.pas</Transaction>
+    <Transaction>2021/11/18 15:03:51.000.014,D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\Unit1.pas=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\controller\uCadastro_controller.pas</Transaction>
+    <Transaction>2021/11/19 10:57:18.000.331,=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\Unit1.pas</Transaction>
+    <Transaction>2021/11/19 10:57:34.000.613,D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\Unit1.pas=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\model\uFrmConfig.pas</Transaction>
+    <Transaction>2021/11/19 10:57:34.000.613,D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\Unit1.dfm=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\model\uFrmConfig.dfm</Transaction>
+    <Transaction>2021/11/19 10:57:42.000.733,D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\model\uFrmConfig.dfm=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\view\uFrmConfig.dfm</Transaction>
+    <Transaction>2021/11/19 10:57:42.000.733,D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\model\uFrmConfig.pas=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\view\uFrmConfig.pas</Transaction>
+    <Transaction>2021/11/19 20:42:59.456,=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\Unit1.pas</Transaction>
+    <Transaction>2021/11/19 20:47:52.718,D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\view\uFrmAviso.dfm=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\Unit1.dfm</Transaction>
+    <Transaction>2021/11/19 20:47:52.718,D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\view\uFrmAviso.pas=D:\PROJETOS DELPHI 10.2\VCL\EXEMPLO_TELA_CADASTRO\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

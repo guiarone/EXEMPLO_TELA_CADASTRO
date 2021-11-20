@@ -1,0 +1,18 @@
+program ExemploCadastro;
+
+uses
+  Vcl.Forms,
+  uExemplo_Cadastro in 'uExemplo_Cadastro.pas' {FrmCadastro},
+  uCadastro_model in 'model\uCadastro_model.pas',
+  uCadastro_controller in 'controller\uCadastro_controller.pas',
+  uFrmConfig in 'view\uFrmConfig.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmCadastro, FrmCadastro);
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
